@@ -1,4 +1,5 @@
 header {
+    position: relative;
     width: auto;
     height: auto;
 }
@@ -11,26 +12,51 @@ header {
     font-family: 'CALIFI', Arial, sans-serif;
     font-size: 12px;
 }
-
-.bold-paragraf {
+.text-container .first-text{
     font-family: 'CALIFB', Arial, sans-serif;
-    font-size: 25px;
+    font-size: 35px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.slim-paragraf{
+.text-container .second-text{
     font-family: 'CALIFI', Arial, sans-serif;
     font-size: 15px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
+.bold-paragraf {
+    font-family: 'CALIFB', Arial, sans-serif;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.slim-paragraf {
+    font-family: 'CALIFI', Arial, sans-serif;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text-paragraf {
+    font-family: 'GOTHANBI', Arial, sans-serif;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-style: normal;
+}
+
+
 .scroll-down {
     position: absolute;
-    top: 80%;
-    left: 47%;
-   
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+
+
 
 @font-face {
     font-family: 'CALIFB';
@@ -41,3 +67,12 @@ header {
     font-family: 'CALIFI';
     src: url('font/CALIFI.TTF');
 }
+
+@font-face {
+    font-family: 'GOTHANBI';
+    src: url('font/GOTHANBI.TTF');
+}
+
+
+
+
