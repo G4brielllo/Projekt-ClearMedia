@@ -49,11 +49,24 @@ header {
   font-style: normal;
 }
 
+.description-paragraf {
+  color: grey;
+  font-family: "GOTHAMLIGHT", Arial, sans-serif;
+  font-size: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-style: normal;
+}
+
 .scroll-down {
   position: absolute;
-  top: 90%;
+  top: 92%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.no-underline {
+  text-decoration: none;
 }
 
 @font-face {
@@ -67,6 +80,10 @@ header {
 @font-face {
   font-family: "GOTHANBI";
   src: url("font/GOTHANBI.TTF");
+}
+@font-face {
+  font-family: "GOTHAMLIGHT";
+  src: url("font/Gotham-Light.otf");
 }
 
 /*# sourceMappingURL=styles.css.map */
