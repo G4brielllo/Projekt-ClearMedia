@@ -30,8 +30,6 @@ header {
 .bold-paragraf {
   font-family: "CALIFB", Arial, sans-serif;
   font-size: 35px;
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 .slim-paragraf {
@@ -60,13 +58,42 @@ header {
 
 .scroll-down {
   position: absolute;
-  top: 92%;
+  bottom: 3%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .no-underline {
   text-decoration: none;
+}
+
+.photo-indentation {
+  margin-top: -10%;
+  margin-bottom: -15%;
+}
+
+.text-indentation {
+  margin: 5%;
+  margin-top: 15%;
+}
+.text-indentation h2 {
+  font-family: "CALIFB", Arial, sans-serif;
+  font-size: 35px;
+}
+.text-indentation p {
+  font-family: "GOTHAMLIGHT";
+  font-size: 15px;
+}
+
+.row {
+  margin-bottom: 10%;
+}
+.row #last-row {
+  margin-bottom: -3%;
+}
+
+.last-row {
+  margin-bottom: -3%;
 }
 
 @font-face {
